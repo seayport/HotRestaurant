@@ -1,0 +1,8 @@
+
+h1 {
+	text-align: center !important;
+}
+
+#reserve-button, #tables-button {
+	height: 55px;
+}
