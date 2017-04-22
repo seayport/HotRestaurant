@@ -1,0 +1,24 @@
+{
+  "name": "hotrestaurant",
+  "version": "1.0.0",
+  "description": "reserve table",
+  "main": "RestServer.js",
+  "scripts": {
+    "test": "Martin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seayport/HotRestaurant.git"
+  },
+  "author": "Karlos and Sandy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seayport/HotRestaurant/issues"
+  },
+  "homepage": "https://github.com/seayport/HotRestaurant#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  }
+}
