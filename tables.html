@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Current Tables</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Hot Restaurant!</h1>
+				<h3 style="text-align: center;">Current Reservations and Waiting List</h3>
+				<div style="text-align: center;">
+					<a href="./reservations.html"><button id="reserve-button">
+					<img src="assets/images/reserve.png">Make Reservation</button></a>
+					<a href="./index.html">
+					<button id="home-button"><img src="assets/images/home2.png"></button></a>
+				</div>
+			</div>
+			<div class='panel panel-default'>
+				<div class='panel-heading'>
+					<h3 class='panel-title'><strong>Current Reservations</strong></h3>
+				</div>
+				<div class="reservations">
+					ALL RESERVATIONS GO HERE
+				</div>
+			</div>
+			<div class='panel panel-default'>
+				<div class='panel-heading'>
+					<h3 class='panel-title'><strong>Waiting List</strong></h3>
+				</div>
+				<div class="waiting-list">
+					WAITING LIST GOES HERE
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<p><a href="/api/tables">API Table Link</a> | <a href="/api/waitlist">API Wait List</a> </p>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+*.DS_Store
+07-firebase/1-Class-Content/7.3/Activities/01-TimeSheet/Timesheet-Deployed/.firebaserc
+07-firebase/1-Class-Content/7.3/Activities/01-TimeSheet/Timesheet-Deployed/database.rules.json
+07-firebase/1-Class-Content/7.3/Activities/01-TimeSheet/Timesheet-Deployed/firebase.json
+07-firebase/1-Class-Content/7.3/Activities/01-TimeSheet/Timesheet-Deployed/public/index.html
+07-firebase/1-Class-Content/7.3/Activities/01-TimeSheet/Timesheet-Deployed/public/timesheetLogic.js
+**/node_modules
+*.xlsx
+**/Images/*
+**/.idea/*
+**/*-TimeTracker.md
+**/*-Lessonplan.md
+**/*-timesheet.md
+**/~*.pptx
+**/Solutions/hw-feedback-examples-*.pdf
+**/TrainTimes-Deployed*
+**/StudentGuide.md
