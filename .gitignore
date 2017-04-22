@@ -6,7 +6,6 @@
 07-firebase/1-Class-Content/7.3/Activities/01-TimeSheet/Timesheet-Deployed/public/timesheetLogic.js
 **/node_modules
 *.xlsx
-**/Images/*
 **/.idea/*
 **/*-TimeTracker.md
 **/*-Lessonplan.md

@@ -6,3 +6,8 @@ h1 {
 #reserve-button, #tables-button {
 	height: 55px;
 }
+
+body {
+	background-color: #ce1100;
+	color: #3a0400;
+}
