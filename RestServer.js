@@ -13,6 +13,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
+app.use(express.static('assets'));
+
 // Reservation (DATA)
 // =============================================================
 var tables = [{
@@ -42,20 +44,20 @@ app.get("/tables", function(req, res) {
 });
 
 // A GET route with the url /api/friends. This will be used to display a JSON of all possible friends.
-app.get("/api/:tables?", function(req, res) {
-  var chosen = req.params.tables;
-
-  if (chosen) {
-    console.log(chosen);
-
-    for (var i = 0; i < tables.length; i++) {
-      if (chosen === tables[i].routeName) {
-       return res.json(tables[i]);
-      }
-    }
-    return res.json(false);
-    res.send("No table available at this time!");
-  }
+app.get("/api/tables", function(req, res) {
+  // var chosen = req.params.tables;
+  //
+  // if (chosen) {
+  //   console.log(chosen);
+  //
+  //   for (var i = 0; i < tables.length; i++) {
+  //     if (chosen === tables[i].routeName) {
+  //      return res.json(tables[i]);
+  //     }
+  //   }
+  //   return res.json(false);
+  //   res.send("No table available at this time!");
+  // }
   return res.json(tables);
 });
 //A POST route /api/friends. This will be used to handle incoming survey results. 
